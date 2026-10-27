@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+release/
+*.blockmap
+
+# Packaged binaries — published as GitHub release assets, never committed
+*.exe
+
+# Whisper model weights — fetch with `npm run models`
+models/
+
+# Local QA and scratch work
+scratch/
+
+# Logs and OS clutter
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Brand source (the optimised copy lives in docs/brand)
+/Whelo_logo.png
