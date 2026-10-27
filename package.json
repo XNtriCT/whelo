@@ -23,7 +23,7 @@
     "test": "node --test",
     "check:syntax": "node --check electron-main.cjs && node --check preload.cjs",
     "verify": "npm run check:syntax && npm test && npm run build",
-    "dist:installer": "vite build && electron-builder --win nsis",
+    "dist:installer": "vite build && electron-builder --win nsis --publish never",
     "dist:dir": "vite build && electron-builder --win dir"
   },
   "build": {
